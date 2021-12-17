@@ -28,15 +28,13 @@ export default class PortfolioContainer extends Component {
     axios
       .get("https://claytonwieben.devcamp.space/portfolio/portfolio_items")
       .then((response) => {
-        console.log("response data", response);
         this.setState({
           data: response.data.portfolio_items,
         });
       })
       .catch((error) => {
         console.log(error);
-      })
-      .then(function () {});
+      });
   }
 
   portfolioItems() {
