@@ -23,8 +23,6 @@ export default class PortfolioForm extends Component {
       apiAction: "post",
     };
 
-    //Testing to make sure the new URL works
-
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.componentConfig = this.componentConfig.bind(this);
