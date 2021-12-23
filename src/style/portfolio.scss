@@ -4,6 +4,9 @@
 
   .portfolio-item-wrapper {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     .portfolio-img-background {
       background-size: cover;
