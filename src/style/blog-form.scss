@@ -7,4 +7,15 @@
   input {
     margin-bottom: 0px;
   }
+
+  .image-uploaders {
+    @include base-grid();
+    grid-template-columns: 200px;
+    justify-self: center;
+  }
+
+  .btn {
+    width: 150px;
+    justify-self: center;
+  }
 }
