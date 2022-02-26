@@ -11,7 +11,7 @@ export default class BlogForm extends Component {
     this.state = {
       id: "",
       title: "",
-      blog_status: "",
+      blog_status: "published",
       content: "",
       featured_image: "",
       apiUrl: "https://claytonwieben.devcamp.space/portfolio/portfolio_blogs",
@@ -114,7 +114,7 @@ export default class BlogForm extends Component {
 
         this.setState({
           title: "",
-          blog_status: "",
+          blog_status: "published",
           content: "",
           featured_image: "",
         });
@@ -152,23 +152,24 @@ export default class BlogForm extends Component {
             value={this.state.title}
           />
 
-          <input
+          {/* <input
             type="text"
             onChange={this.handleChange}
             name="blog_status"
             placeholder="Blog Status"
             value={this.state.blog_status}
-          />
+          /> */}
 
-          {/* <select
+          <select
             onChange={this.handleChange}
             name="blog_status"
             placeholder="Blog Status"
             value={this.state.blog_status}
+            className="select-element"
           >
             <option value="published">Published</option>
             <option value="draft">Draft</option>
-          </select> */}
+          </select>
         </div>
 
         <div className="one-column">

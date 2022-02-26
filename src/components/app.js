@@ -128,6 +128,9 @@ export default class App extends Component {
                   />
                 )}
               />
+
+              <Route path="/auth" component={Auth} />
+
               {this.state.loggedInStatus === "LOGGED_IN"
                 ? this.authorizedPages()
                 : null}
