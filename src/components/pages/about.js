@@ -13,23 +13,22 @@ export default function () {
         }}
       />
       <div className="right-column">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et
-        doloribus quasi necessitatibus vero aliquam eaque dolorem impedit. Sed
-        in veritatis sunt eaque, reiciendis a perferendis qui! Nisi, deserunt?
-        Reiciendis beatae est ex aut porro illo nesciunt fugit laborum autem
-        vel, voluptatem rerum magni ducimus nobis quos architecto quisquam
-        distinctio itaque, impedit ipsa vitae facere omnis sit temporibus.
-        Cupiditate a voluptas repudiandae minima. Sed omnis autem a excepturi
-        reprehenderit commodi blanditiis! Eligendi vero totam est sint incidunt
-        consequatur id, eveniet doloribus blanditiis perferendis repellat
-        perspiciatis ullam, aperiam autem? Exercitationem error mollitia ipsum
-        quae sequi atque voluptatum, ad expedita reprehenderit id a, quasi
-        officia harum ex assumenda! Quae exercitationem magnam, perspiciatis
-        nisi commodi ipsa mollitia ex rerum, fugiat ducimus ea asperiores quis
-        repudiandae totam, provident optio aperiam ipsum? Corporis iste veniam
-        modi dolore aliquid nam omnis, asperiores, nesciunt doloribus in
-        mollitia nihil dolorum corrupti suscipit ex deleniti tempore excepturi
-        labore quaerat.
+        <p>
+          I grew up in Southeastern Idaho and built an extensive foundation in
+          customer service, sales, and implementation. Because of this, I always
+          view my code from the most human angle possible.
+        </p>{" "}
+        <p>
+          My top priority has always been building applications that make sense
+          to the widest variety of people, whether they're tech-savvy or not.
+          User-friendliness should always be paramount, in my humble opinion.
+        </p>{" "}
+        <p>
+          That's why I love languages like ReactJS and Python-- the relative
+          simplicity means that I, as a developer, can focus more on creating
+          intuitive and dynamic features.{" "}
+        </p>
+        <p>Code is awesome, but people are awesomer.</p>
       </div>
     </div>
   );

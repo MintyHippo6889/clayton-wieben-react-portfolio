@@ -62,6 +62,10 @@ const NavigationComponent = (props) => {
           : null}
       </div>
 
+      <div className="disclaimer">
+        *All current portfolio items are placeholders*
+      </div>
+
       <div className="right-side">
         CLAYTON WIEBEN
         {props.loggedInStatus === "LOGGED_IN" ? (
