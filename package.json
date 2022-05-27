@@ -1,7 +1,7 @@
 {
   "name": "clayton-wieben-react-portfolio",
   "version": "1.0.0",
-  "description": "Personal portfolia app built in React.",
+  "description": "Personal portfolio app built in React.",
   "scripts": {
     "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
